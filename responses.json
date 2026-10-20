@@ -1,0 +1,94 @@
+{
+  "business": {
+    "name": "TP Animal Clinic & Wellness (TPACW)",
+    "opening_hours": "Monday to Saturday, 9 AM to 6 PM",
+    "address": "Temasek Polytechnic, Block 8A, Level 1, Unit 15, 21 Tampines Avenue 1, Singapore 529757",
+    "contact": "Call: 6780 6969, WhatsApp: 8224 9106"
+  },
+  "chatbot": {
+    "welcome_message": "Hello! Welcome to TP Animal Clinic & Wellness (TPACW) I am Professor Paws, TPACW’s AI assistant. How can I help you today?",
+    "unanswered_message": "This enquiry requires further assistance from our clinic team. Your query will be directed to our staff for a response when they become available during clinic operating hours. We seek your patience in the meantime. Thank you for your understanding! \nFor emergencies, you may approach the following 24-hour emergency veterinary clinics: \n1. Advanced VetCare Veterinary Centre (Bedok) \nAddress: 26 Jalan Pari Burong, Singapore 488692 \nTel: 6636 1788 \n2. Westside Vet Emergency & Referral Hospital \nAddress: 86 Serangoon Garden Way, Singapore 555982 \nTel: 6931 0095 \n3. Veterinary Emergency and Specialty (VES) Hospital \nAddress: 232 Whitley Road, Singapore 297824 \nTel: 6266 0232 \n4. Beecroft Animal Specialist & Emergency Hospital \nAddress: 991E Alexandra Road, #01-27, Singapore 119973 \nTel: 6996 1812 \n5. Landon Veterinary Specialists | Pet A&E \nAddress: 41 Eng Kong Terrace, Singapore 599013 \nTel: 6463 7228 \n*It is highly encouraged to call prior to visiting the clinic so the team can be better prepared for your pet’s arrival."
+  },
+  "responses": [
+    {
+      "name": "Opening hours",
+      "keywords": ["opening hours", "when do you open", "what time do you open", "when do you close", "closing time", "business hours"],
+      "answer": "TPACW’s opening hours are as follow:\nMonday 9am - 12pm, 2pm - 5pm\nTuesday Closed \nWednesday 9am - 12pm, 2pm - 5pm\nThursday 9am - 12pm, 2pm - 5pm\nFriday 9am - 12pm, 2pm - 5pm\nSaturday Closed  \nSunday Closed\n\nClosed if \n- There is no appointments for the day \n- Selected dates during the school’s term breaks \n\nPlease note that we are an appointment-based clinic. Please call or WhatsApp us before visiting. Thank you! \nCall: 6780 6969, WhatsApp: 8224 9106"
+    },
+    {
+      "name": "Location",
+      "keywords": ["where are you located", "where is your shop", "your address", "business location"],
+      "answer": "We are located within Temasek Polytechnic. \nAddress: Temasek Polytechnic, Block 8A, Level 1, Unit 15, 21 Tampines Avenue 1, Singapore 529757.\n\nIf you are using Google Maps or Grab, search for “TP Animal Clinic & Wellness” to locate the building."
+    },
+    {
+      "name": "Slots for today/tomorrow",
+      "keywords": ["any slots today", "any slots tomorrow", "any slots tmr", "appointment availability", "earliest available appointment", "same day appointment", "any appt today"],
+      "answer": "Sorry, I’m unable to confirm the availability of appointment slots. However, I can direct your enquiry to our staff, who will assist you further.\nIf you would like to request an appointment, I can help collect the following details from you. Our staff will review your request and get back to you to confirm the availability of slots.\n- Your name \n- Contact number \n- Existing client?\n- Your pet’s name and species \n- Preferred date and time for the appointment \n- Any requests for a specific vet?\n- Reason for appointment\n"
+    },
+    {
+      "name": "Collection of appointment details",
+      "keywords": ["book an appointment", "make an appointment", "book appointment", "book a consultation", "book an appt", "book a vet visit", "request an appointment"],
+      "answer": "I’d be happy to help you book an appointment. May I please have the following details? \n - Your name \n - Contact number \n - Existing client? \n - Your pet’s name and species \n - Preferred date and time for the appointment \n - Any requests for a specific vet? \n - Reason for appointment \nOur staff will contact you to confirm your appointment."
+    },
+    {
+      "name": "Confirmation of appointment details",
+      "keywords": ["book an appointment","book appointment","make an appointment","make appointment","schedule an appointment","arrange an appointment","request an appointment","appointment booking","i would like to see a vet"],
+      "answer": "Your appointment request has been received and is currently pending confirmation. Our team will check the actual schedule and availability before confirming your appointment. Please wait for our staff to get back to you with the final confirmation. Kindly note that your appointment is not confirmed until you receive confirmation from our team. Thank you for your patience!"
+    },
+    {
+      "name": "Book surgery",
+      "keywords": ["book surgery", "book an operation", "arrange surgery", "book a spay", "book castration", "book sterilisation", "book neutering", "make a surgery appointment"],
+      "answer": "I’d be happy to help you with a surgery booking enquiry. May I please have the following details?\n- Your name\n- Contact number\n- Existing client?\n- Your pet’s name and species\n- Your pet’s gender\n- Preferred date for surgery\n- Any requests for a specific vet?\n- Reason for surgery\nPlease note that surgery drop-off is usually at 10:00 AM.\nOur staff will review your request and contact you to discuss the surgery arrangements and confirm your booking."
+    },
+    {
+      "name": "Confirmation of surgery booking",
+      "keywords": ["confirm surgery booking", "confirm book surgery", "confirm book an operation", "confirm arrange surgery", "confirm book a spay", "confirm book castration", "confirm book sterilisation", "confirm book neutering", "confirm make a surgery appointment"],
+      "answer": "Your surgery booking request has been received and is currently pending confirmation. Our team will review your request and contact you to confirm the surgery arrangements. Please note that your surgery booking is not confirmed until you receive confirmation from our staff. Surgery drop-off is usually at 10:00 AM. Thank you for your patience and understanding!"
+    },
+    {
+      "name": "Cancellation",
+      "keywords": ["cancel my appointment", "cancel appointment", "cancel my booking", "cancel my appt", "appointment cancellation", "cancel my surgery booking"],
+      "answer": "To help us process your appointment cancellation, may I please have the following details?\n- Your name\n- Contact number\n- Your pet's name\n- Existing appointment date and time\nOur staff will review your request and contact you to confirm the cancellation. Thank you for letting us know."
+    },
+    {
+      "name": "Confirmation of cancellation",
+      "keywords": ["confirm cancel my appointment", "confirm cancel appointment", "confirm cancel my booking", "confirm cancel my appt", "confirm appointment cancellation", "confirm cancel my surgery booking"],
+      "answer": "Your appointment cancellation request has been received and is currently pending confirmation. Our team will review your request and get back to you with the final confirmation. Please note that your appointment is not considered cancelled until you receive confirmation from our staff. Thank you for your patience and understanding!"
+    },
+    {
+      "name": "Reschedule appointment",
+      "keywords": ["reschedule", "change appointment", "move appointment", "postpone", "delay", "reschedule my appointment", "change my appointment date", "change my appointment time", "postpone my appointment", "move my appointment", "change appt timing"],
+      "answer": "To help us reschedule your appointment, may I please have the following details?\n- Your name\n- Contact number\n- Your pet's name\n- Existing appointment date and time\n- Preferred alternative date and time\nOur staff will check the schedule and availability before contacting you to confirm your rescheduled appointment. Thank you for letting us know!"
+    },
+    {
+      "name": "Confirmation of reschedule",
+      "keywords": ["confirm reschedule", "confirm change appointment", "confirm move appointment", "confirm postpone", "confirm delay", "confirm reschedule my appointment", "confirm change my appointment date", "confirm change my appointment time", "confirm postpone my appointment", "confirm move my appointment", "confirm change appt timing"],
+      "answer": "Your appointment rescheduling request has been received and is currently pending confirmation. Our team will check the schedule and availability before getting back to you with the final confirmation. Please note that your appointment is not considered rescheduled until you receive confirmation from our staff. Thank you for your patience and understanding!"
+    },
+    {
+      "name": "Add on patients for appointment",
+      "keywords": ["add another pet to my appointment", "add another cat to my appointment", "add another dog to my appointment", "add pets to my booking", "add a second pet to my appointment"],
+      "answer": "To help us add more pets to your existing appointment, may I please have the following details?\n- Your name\n- Contact number\n- Name of your pet with the existing appointment\n- Existing appointment date and time\n- Number of additional pets to be added\n- Names of the additional pets\nOur staff will review your request and check the appointment availability before contacting you to confirm the changes. Thank you for letting us know!"
+    },
+    {
+      "name": "Confirmation of add on patients",
+      "keywords": ["confirm add another pet to my appointment", "confirm add another cat to my appointment", "confirm add another dog to my appointment", "confirm add pets to my booking", "confirm add a second pet to my appointment"],
+      "answer": "Your request to add additional pets to your existing appointment has been received and is currently pending confirmation. Our team will check the schedule and availability before getting back to you with the final confirmation. Please note that the additional pets are not confirmed for the appointment until you receive confirmation from our staff. Thank you for your patience and understanding!"
+    },
+    {
+      "name": "Microchipping process",
+      "keywords": ["microchipping procedure", "microchipping process", "how long does microchipping take", "where is the microchip inserted", "how do you microchip a cat", "does microchipping need sedation"],
+      "answer": "Microchipping is a quick and simple procedure to help identify your cat if they ever get lost. \nThe vet will implant a small microchip under your cat's skin, between the shoulder blades, using an injection. The procedure takes less than a minute, and sedation is generally not required. \nOnce implanted, the microchip can be scanned to retrieve its unique identification number, which can be linked to your contact details to help reunite you with your cat if they go missing. \nIf you have any further questions or would like to arrange an appointment, feel free to let us know!"
+    },
+    {
+      "name": "Surgery process",
+      "keywords": ["surgery procedure", "surgery process", "how long does surgery take", "what is involved in cat surgery", "how often should cats have surgery", "does surgery need sedation"],
+      "answer": "Here’s what to expect for surgery day: \n\nMorning: \n- Drop off at 9.30AM \n- Pre-surgery check-up with the vet \n- Blood tests (optional—you can decide after consultation) \n\nAfternoon: \n- Procedure \n\nDischarge: \nBetween 3–4 PM (we’ll update you if anything changes). \nOn the day of surgery, they’ll have a morning check-up with the vet to ensure they’re ready for the procedure. If all looks good, the surgery will take place in the afternoon. Blood tests are optional, and you can decide whether to proceed after speaking with the vet.You can typically expect to pick up your pet between 3-4 PM."
+    },
+    {
+      "name": "Post-surgery care",
+      "keywords": ["post-surgery care", "after surgery care", "how to care for my cat after surgery", "what to do after cat surgery", "post-operative care for cats"],
+      "answer": "After your cat's surgery, it's important to follow the post-operative care instructions provided by the vet. This may include:\n- Keeping your cat in a quiet and comfortable space\n- Monitoring the surgical site for any signs of infection (redness, swelling, discharge)\n- Administering prescribed medications as directed\n- Preventing your cat from licking or scratching the surgical site (using an Elizabethan collar if necessary)\n- Limiting physical activity and playtime until cleared by the vet\n- Scheduling follow-up appointments as recommended by the vet\nIf you notice any concerning symptoms or have questions about your cat's recovery, please contact our clinic for guidance."
+    }
+  ]
+}
